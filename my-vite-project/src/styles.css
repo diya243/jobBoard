@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: #007bff;
+    color: white;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .features, .pricing, .about, .contact {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-card, .plan {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+  }
+  
